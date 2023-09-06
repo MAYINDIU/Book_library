@@ -1,0 +1,7 @@
+//for city find
+SELECT cities.name FROM cities INNER JOIN writers ON writers.CityName=cities.id where writers.CityName='78'; 
+//for state
+SELECT states.name FROM states INNER JOIN writers ON writers.StateName=states.id where writers.StateName='78'; 
+
+//for country
+SELECT countries.name FROM countries INNER JOIN writers ON writers.CountryName=countries.id where writers.CountryName='3'; 
