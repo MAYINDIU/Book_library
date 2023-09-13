@@ -37,7 +37,7 @@ class PublicController extends Controller
     }
    public function Index() 
    {
-    $writerfamous= DB::table('writers')->inRandomOrder()->limit(1)->get();
+    $writerfamous=Writer::inRandomOrder()->limit(1)->get();
     $bookfamaus= DB::table('books')->inRandomOrder()->limit(1)->get();
 
     $writer_list= DB::table('writers')

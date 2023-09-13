@@ -29,8 +29,8 @@
                         @foreach($writerfamous as $data)   
                             <img src="{{ asset('uploads/writers/'.$data->image) }}" data-at2x="pHomeContent/pic/al-amin_khan_sagar@2x.jpg" alt>
                             <h3><a href="book/info/1584.html">{{$data->wNameBn}}</a></h3>  
-                            <p>{{$data->StateName}}</p>
-                            <p>{{$data->CountryName}}</p>
+                            <p>{{$data->state->name}}</p>
+                            <p>{{$data->cname->name}}</p>
                             @endforeach
                         </article>
 
