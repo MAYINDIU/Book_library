@@ -7,7 +7,7 @@
                     <li data-target="#myCarousel" data-slide-to="2"></li>
                 </ol>
                 <!-- Wrapper for slides -->
-                <div class="carousel-inner">
+                <div class="carousel-inner h-25">
                     <div class="item active">
                         <img src="pHomeContent\pic\banner-2.png" alt="" style="height: 400px;" width="100%">
                         <div class="carousel-caption" style="font-weight: bold;  text-shadow: -1px -1px 10px #333, 1px -1px 10px #333, -1px 1px 10px #333, 1px 1px 10px #333;">
@@ -47,3 +47,5 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
+
+            

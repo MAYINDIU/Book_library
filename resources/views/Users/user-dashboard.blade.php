@@ -26,7 +26,7 @@
                             <div class="row-fluid sortable">
                                 <div class="box span12">
                                     <div class="box-header" data-original-title>
-                                        <img src="pHomeContent/pic/al-amin_khan_sagar.jpg" style="border-radius: 50%" >                        
+                                        <img style='width:100px;' src="pHomeContent/pic/user.png" style="border-radius: 50%" >                        
                                         <p> 
                                             <b>স্বাগতম</b><br>
                                             <b>আল-আমিন খান সাগর</b><br>
